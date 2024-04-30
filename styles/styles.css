@@ -2,12 +2,15 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family:"Roboto";
 }
 .front-header{
     display:flex;
     background-color:#1F2937;
     flex-direction:column;
     color:#f9faf8;
+    padding:10px 150px;
+    font-style:#F9FAF8;
 }
 a{
     text-decoration:none;
@@ -15,7 +18,43 @@ a{
 }
 .top-header{
     display:flex;
+    height:120px;
 }
 .header-logo{
     margin-right:auto;
+    font-size:24px;
+    font-weight:900;
+}
+.right-links{
+    display:flex;
+    gap:20px;
+}
+.title{
+    font-weight:900;
+    font-size:48px;
+}
+.header-info{
+    display:flex;
+    font-size:18px;
+    color:#E5E7EB;
+    justify-content:space-between;
+    padding-bottom:150px;
+}
+.text-info{
+    width:700px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+#sign-up-one{
+    color:#E5E7EB;
+    background-color:#3882F6;
+    max-width:fit-content;
+    border-radius:4px;
+    padding:5px 20px;
+    font-size:16px;
+}
+.img-class{
+    max-width:300px;
+    height:auto;
 }
